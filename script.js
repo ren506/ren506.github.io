@@ -45,7 +45,7 @@ noButton.addEventListener("click", function () {
   questionText.style.transform = `translateY(-${moveUp}px)`;
 
   // No 文案变化（前 5 次变化）
-  if (clickCount <= 5) {
+  if (clickCount <= 6) {
     noButton.innerText = noTexts[clickCount - 1];
   }
 

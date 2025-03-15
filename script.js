@@ -54,7 +54,7 @@ noButton.addEventListener("click", function () {
   if (clickCount === 2) mainImage.src = "images/think.png"; // 思考
   if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
   if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount === 5) mainImage.src = "images/微信图片_20250316004448.png;
+  if (clickCount === 5) mainImage.src = "images/微信图片_20250316004448.png"; 
   if (clickCount >= 6) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
 
